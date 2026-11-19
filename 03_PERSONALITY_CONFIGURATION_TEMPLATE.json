@@ -1,0 +1,52 @@
+{
+  "schema_version": "0.2-proposal",
+  "template_version": "0.1",
+  "personality_id": "REPLACE_WITH_UNIQUE_PERSONALITY_ID",
+  "configuration_revision": 0,
+  "configuration_status": "DRAFT_UNCONFIGURED",
+  "interaction_mode": null,
+  "canon_depth": null,
+  "interaction_type": null,
+  "can_invent_background_canon": false,
+  "behavior": {
+    "speaking_style": null,
+    "temperament": null,
+    "purpose": null,
+    "boundaries": []
+  },
+  "background_canon": {
+    "status": "UNSET",
+    "approved_fact_ids": []
+  },
+  "visual_identity": {
+    "creation_allowed_independent_of_background_flag": true,
+    "physical_description": {
+      "status": "UNSET",
+      "text": null,
+      "revision": 0
+    },
+    "image_prompt": {
+      "status": "UNSET",
+      "identity_constraints": null,
+      "render_style": null,
+      "scene_variant": null,
+      "revision": 0
+    },
+    "last_approved_revision": null
+  },
+  "canon_authorization": {
+    "policy": "USER_REVIEW_REQUIRED",
+    "delegation_authorized": false
+  },
+  "memory": {
+    "canon_version": null,
+    "active_branch_id": null,
+    "storage_status": "UNCONFIGURED",
+    "storage_mode": "MANUAL_CHECKPOINT",
+    "last_verified_checkpoint": null
+  },
+  "release_policy": {
+    "external_character_persona_export_eligibility": "DERIVE_FROM_INTERACTION_MODE",
+    "generator_snapshot_mode": "BRANCH_NEUTRAL_READ_ONLY"
+  }
+}

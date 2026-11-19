@@ -1,0 +1,28 @@
+{
+  "ledger_type": "PERSONALITY_CANON_LEDGER",
+  "personality_id": "REPLACE_WITH_UNIQUE_PERSONALITY_ID",
+  "canon_version": "0.0-DRAFT",
+  "approved_facts": [],
+  "historical_superseded_facts": [],
+  "fact_record_fields": [
+    "fact_id",
+    "scope",
+    "content",
+    "provenance",
+    "source_reference",
+    "status",
+    "approved_by",
+    "approval_evidence",
+    "effective_canon_version",
+    "supersedes",
+    "sha256_optional"
+  ],
+  "scopes": [
+    "BEHAVIOR",
+    "BACKGROUND",
+    "VISUAL_IDENTITY",
+    "WORLD_LORE",
+    "OTHER"
+  ],
+  "safety_note": "Only approved facts go into approved_facts. Unknowns and proposals stay outside. Changes require separately authorized verified write."
+}

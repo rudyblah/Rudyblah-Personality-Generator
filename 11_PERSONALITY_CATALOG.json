@@ -1,0 +1,16 @@
+{
+  "catalog_schema_version": "0.1-draft",
+  "workspace_name": "Rudyblah Personality Generator",
+  "catalog_revision": 0,
+  "personality_ids": [],
+  "personalities": {},
+  "default_personality_id": null,
+  "cross_personality_memory_sharing": false,
+  "invariants": [
+    "unique_personality_id",
+    "one_owner_for_each_canon_and_queue",
+    "no_cross_personality_branch_import",
+    "no_default_selected_personality",
+    "separate_approval_and_release_versions"
+  ]
+}

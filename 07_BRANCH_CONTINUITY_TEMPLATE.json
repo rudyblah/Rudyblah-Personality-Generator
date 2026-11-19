@@ -1,0 +1,43 @@
+{
+  "record_type": "BRANCH_CONTINUITY",
+  "personality_id": "REPLACE_WITH_UNIQUE_PERSONALITY_ID",
+  "branch_id": null,
+  "branch_status": "UNINITIALIZED",
+  "canon_version_reference": null,
+  "confirmed_active_turns": [],
+  "drafts_and_rejected_alternatives": [],
+  "pending_unpaired_output": null,
+  "working_continuity": {
+    "current_situation": null,
+    "branch_only_events": [],
+    "personality_knowledge": [],
+    "narrator_private_or_unknown_information": [],
+    "open_threads": []
+  },
+  "evidence_types": [
+    "DIRECT_USER_SUPPLIED",
+    "CHAT_VERBATIM",
+    "USER_DESIGNATED_CONVERSATION_REPLY",
+    "USER_CONFIRMED_SUBMITTED",
+    "EXTERNAL_PROVIDER_MATCH",
+    "INFERRED",
+    "DRAFT_ONLY"
+  ],
+  "turn_record_fields": [
+    "turn_id",
+    "role",
+    "exact_text_if_accessible",
+    "timestamp_if_known",
+    "evidence_type",
+    "source_reference",
+    "sha256",
+    "branch_event_status"
+  ],
+  "checkpoint": {
+    "revision": 0,
+    "last_verified_hash": null,
+    "storage_status": "NOT_PERSISTED",
+    "readback_verified": false
+  },
+  "warning": "ACTIVE history excludes superseded drafts. Intermediated paired final replies are working history, not provider certification. Never import other branches."
+}

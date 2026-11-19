@@ -1,0 +1,34 @@
+{
+  "queue_type": "PERSONALITY_APPROVAL_QUEUE",
+  "personality_id": "REPLACE_WITH_UNIQUE_PERSONALITY_ID",
+  "queue_revision": 0,
+  "pending": [],
+  "provisional": [],
+  "approved_history": [],
+  "rejected_history": [],
+  "proposal_fields": [
+    "proposal_id",
+    "scope",
+    "proposed_content",
+    "source_reference",
+    "provenance",
+    "conflict_review",
+    "status",
+    "intended_canon_version",
+    "approval_evidence",
+    "supersedes"
+  ],
+  "allowed_statuses": [
+    "PENDING",
+    "PROVISIONAL",
+    "APPROVED",
+    "REJECTED"
+  ],
+  "patch_control": {
+    "default_requirement": "REVIEW_EXACT_PATCH_THEN_SEPARATE_EXPLICIT_APPLY",
+    "staged_patch_id": null,
+    "staged_patch_sha256": null,
+    "applied": false
+  },
+  "note": "Template is unconfigured; no applied canon change is implied."
+}
